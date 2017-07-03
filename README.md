@@ -1,7 +1,12 @@
-# starter-client
+# Starter project - Front-end
+A Rails 5 API + Ember + Semantic UI demo/starter project.
+ 
+The back-end project can be found [here](https://github.com/etiennebaque/starter-api).
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Command history
+```
+ember new starter-client 
+```
 
 ## Prerequisites
 
@@ -36,10 +41,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
