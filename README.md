@@ -14,7 +14,11 @@ ember g route login
 ember g component login-form
 
 ember g route dashboard
+```
 
+## Run in development, with Rails backend
+```
+ember server --proxy http://localhost:3000
 ```
 
 ## Prerequisites
@@ -58,3 +62,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [Ember and Rails 5 tutorial](https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/)
+* [Ember-simple-auth and Devise
+  tutorial](https://romulomachado.github.io/2015/09/28/using-ember-simple-auth-with-devise.html)
