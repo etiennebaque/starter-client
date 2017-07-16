@@ -12,6 +12,9 @@ npm install
 
 ember g route login
 ember g component login-form
+
+ember g route dashboard
+
 ```
 
 ## Prerequisites
