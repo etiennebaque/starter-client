@@ -6,6 +6,9 @@ The back-end project can be found [here](https://github.com/etiennebaque/starter
 ## Command history
 ```
 ember new starter-client 
+ 
+ember install ember-simple-auth
+npm install
 ```
 
 ## Prerequisites
