@@ -9,6 +9,9 @@ ember new starter-client
  
 ember install ember-simple-auth
 npm install
+
+ember g route login
+ember g component login-form
 ```
 
 ## Prerequisites
