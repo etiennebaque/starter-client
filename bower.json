@@ -1,0 +1,6 @@
+{
+  "name": "starter-client",
+  "dependencies": {
+    "semantic-ui": "^2.2.11"
+  }
+}

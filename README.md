@@ -12,8 +12,10 @@ npm install
 
 ember g route login
 ember g component login-form
-
 ember g route dashboard
+
+ember install semantic-ui-ember
+ember generate semantic-ui-ember
 ```
 
 ## Run in development, with Rails backend
