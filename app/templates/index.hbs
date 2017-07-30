@@ -1,6 +1,42 @@
 {{navigation-bar}}
 
-<h2 id="title">Welcome to Ember</h2>
+<div class="ui main text container">
+  <h1 class="ui header">Semantic UI Fixed Template</h1>
+  <p>This is a basic fixed menu template using fixed size containers.</p>
+  <p>A text container is used for the main container, which is useful for single column layouts</p>
 
-{{#link-to 'login'}}Login{{/link-to}}
+  <p>Here's an example form</p>
 
+  <form class="ui form">
+    <div class="field">
+      <label>First Name</label>
+      <input type="text" name="first-name" placeholder="First Name">
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input type="text" name="last-name" placeholder="Last Name">
+    </div>
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" tabindex="0" class="hidden">
+        <label>You have to check that box</label>
+      </div>
+    </div>
+    <button class="ui button" type="submit">Submit</button>
+  </form>
+
+  <div class="ui section divider"></div>
+
+  <div>
+    Useful links:
+    <div class="ui bulleted list">
+      <div class="item"><a href="https://semantic-ui.com/introduction/getting-started.html" target="_blank">Semantic UI docs</a></div>
+      <div class="item"><a href="https://github.com/etiennebaque/starter-client" target="_blank">Starter client repo</a></div>
+      <div class="item"><a href="https://github.com/etiennebaque/starter-api" target="_blank">Starter API repo</a></div>
+      <div class="item">Check out README files for more links...</div>
+    </div>
+  </div>
+
+</div>
+
+{{footer-section}}
